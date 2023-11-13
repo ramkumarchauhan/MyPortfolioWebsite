@@ -54,7 +54,7 @@ $(function () {
                 $("#successModal").fadeIn();
                 setTimeout(function () {
                     $("#successModal").fadeOut();
-                }, 3000);
+                }, 600000);
             }).catch(() => {            
                 $("#failedModal").fadeIn();
                 setTimeout(function () {
