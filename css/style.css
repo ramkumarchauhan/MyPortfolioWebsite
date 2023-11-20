@@ -450,6 +450,10 @@ section {
     color: #00a6ff;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 .progressBoxs {
     gap: 3rem;
 }
@@ -913,6 +917,10 @@ form textarea {
         font-size: 2rem;
     }
 
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
     .resume-wrap {
         text-align: center;
         justify-content: center;
